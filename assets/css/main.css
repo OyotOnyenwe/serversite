@@ -94,13 +94,13 @@ input, select, textarea {
 		background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0)), url("images/bg01.png");
 		background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0)), url("images/bg01.png");
 		background-image: linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0)), url("images/bg01.png");
-		background-color: #f7f7f7;
+		background-color: #303030;
 		background-position: top left, top left;
 		background-repeat: repeat-x, repeat;
 		background-size: 100% 30em, auto;
-		font-family: 'Open Sans', sans-serif;
+		font-family: 'Nunito Sans', sans-serif;
 		font-size: 13pt;
-		color: #696969;
+		color: #e2e2e2;
 		font-weight: 300;
 		line-height: 2.25em;
 	}
@@ -119,13 +119,13 @@ input, select, textarea {
 	input, select, textarea {
 		font-family: 'Open Sans', sans-serif;
 		font-size: 13pt;
-		color: #696969;
+		color: #ffffff;
 		font-weight: 300;
 		line-height: 2.25em;
 	}
 
 	a {
-		color: #0090c5;
+		color: #00bbff;
 		text-decoration: underline;
 	}
 
@@ -134,7 +134,7 @@ input, select, textarea {
 		}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #444;
+		color: #f0f0f0;
 		font-weight: 800;
 	}
 
@@ -157,7 +157,7 @@ input, select, textarea {
 
 	b, strong {
 		font-weight: 600;
-		color: #444;
+		color: #f1f1f1;
 	}
 
 	i, em {
@@ -182,11 +182,11 @@ input, select, textarea {
 
 	hr {
 		border: 0;
-		border-top: solid 1px #eee;
+		border-top: solid 1px #646464;
 	}
 
 	blockquote {
-		border-left: solid 0.5em #eee;
+		border-left: solid 0.5em #646464;
 		padding: 1em 0 1em 2em;
 		font-style: italic;
 	}
@@ -314,6 +314,7 @@ input, select, textarea {
 
 		.row > .col-5 {
 			width: 41.66667%;
+			font-family: 'Open Sans', sans-serif;
 		}
 
 		.row > .off-5 {
@@ -330,6 +331,7 @@ input, select, textarea {
 
 		.row > .col-7 {
 			width: 58.33333%;
+			font-family: 'Open Sans', sans-serif;
 		}
 
 		.row > .off-7 {
@@ -1494,7 +1496,7 @@ input, select, textarea {
 		font-weight: 800;
 		margin: 0 0 1em 0;
 		font-size: 0.8em;
-		color: #444;
+		color: #999;
 	}
 
 	form input[type="text"],
@@ -1638,9 +1640,10 @@ input, select, textarea {
 		position: relative;
 		display: inline-block;
 		background: #0090c5;
-		color: #fff;
+		color: #ffffff;
 		text-decoration: none;
 		border-radius: 6px;
+		font-family: 'Open Sans', sans-serif;
 		font-weight: 800;
 		outline: 0;
 		border: 0;
@@ -1682,7 +1685,7 @@ input, select, textarea {
 		.button.alt {
 			background: #f1f1f1;
 			background: rgba(0, 0, 0, 0.05);
-			color: #444;
+			color: #ffffff;
 		}
 
 			input[type="button"].alt:hover,
@@ -1782,7 +1785,7 @@ input, select, textarea {
 /* Box */
 
 	.box {
-		background: #fff;
+		background: #4b4b4b;
 		border-radius: 6px;
 		box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.05);
 		padding: 2em;
@@ -1919,7 +1922,7 @@ input, select, textarea {
 	}
 
 	#main-wrapper {
-		background: #fff;
+		background: #4b4b4b;
 		box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.05);
 		padding: 5em 0 5em 0;
 	}
@@ -1941,7 +1944,6 @@ input, select, textarea {
 	}
 
 		#logo h1 {
-			background: #7289DA;
 			color: #fff;
 			border-radius: 6px;
 			font-family: 'Nunito Sans', sans-serif;
@@ -1987,9 +1989,10 @@ input, select, textarea {
 					-webkit-transition: background-color .25s ease-in-out;
 					-ms-transition: background-color .25s ease-in-out;
 					transition: background-color .25s ease-in-out;
+					font-family: 'Open Sans', sans-serif;
 					font-weight: 800;
 					letter-spacing: 0.025em;
-					color: #696969;
+					color: #bebebe;
 					text-decoration: none;
 					border-radius: 6px;
 					padding: 0.5em 1em 0.5em 1em;
@@ -2000,22 +2003,24 @@ input, select, textarea {
 				}
 
 				#nav ul li:hover a, #nav ul li:hover span {
-					background: #fff;
+					background: #585858;
+					color: #fff;
 				}
 
 				#nav ul li.active a, #nav ul li.active span {
-					background: #fff;
+					background: #585858;
+					color: #fff;
 				}
 
 				#nav ul li.current a {
-					background: #444;
+					background: #585858;
 					color: #fff;
 				}
 
 	.dropotron {
-		background: #fff;
+		background: #303030;
 		letter-spacing: 0.025em;
-		color: #696969;
+		color: #bebebe;
 		text-decoration: none;
 		border-radius: 6px;
 		padding: 0.75em 0;
@@ -2028,7 +2033,7 @@ input, select, textarea {
 	}
 
 		.dropotron li {
-			border-top: solid 1px #eee;
+			border-top: solid 1px #444;
 			line-height: 3em;
 			padding-left: 0;
 		}
@@ -2049,7 +2054,8 @@ input, select, textarea {
 			}
 
 				.dropotron li > a:hover, .dropotron li > span:hover {
-					background: #eee;
+					background: #585858;
+					color: #fff;
 				}
 
 			.dropotron li.active > a, .dropotron li.active > span {
@@ -2067,7 +2073,7 @@ input, select, textarea {
 				position: absolute;
 				top: -0.5em;
 				left: 1em;
-				border-bottom: solid 0.75em #ffffff;
+				border-bottom: solid 0.75em #444;
 				border-left: solid 0.75em transparent;
 				border-right: solid 0.75em transparent;
 				z-index: 1;
