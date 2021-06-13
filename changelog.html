@@ -31,21 +31,22 @@
 					<!-- Nav -->
 						<nav id="nav">
 							<ul>
-								<li><a href="index.html">Home</a></li>
+								<li class="current"><a href="index.html">Home</a></li>
 								<li>
 									<a href="#">Servers</a>
-									<ul>
+									<ul style="font-family: 'Open Sans', sans-serif; font-weight: 800">
 										<li><a href="survival.html">Survival</a></li>
 										<li><a href="anarchy.html">Anarchy</a></li>
 										<li><a href="creative.html">Creative</a></li>
 									</ul>
 								</li>
 								<li><a href="join.html">How to Join</a></li>
-								<li class="current"><a href="changelog.html">Changelog</a></li>
+								<li><a href="changelog.html">Changelog</a></li>
 							</ul>
 						</nav>
 				</header>
 			</div>
+
 
 			<!-- Main -->
 				<div id="main-wrapper">
@@ -56,13 +57,42 @@
 								<article>
 
 									<h2 style="text-align: center; font-family: 'Nunito Sans', sans-serif; font-weight:800; font-size: 300%; margin-bottom: 1%;">Changelog</h2>
-									<h2 style="text-align: center; font-family: 'Nunito Sans', sans-serif; font-weight:400; font-size: 100%; margin-bottom: 3em">Current Version: 1.2.1</h2>
+									<h2 style="text-align: center; font-family: 'Nunito Sans', sans-serif; font-weight:400; font-size: 100%; margin-bottom: 3em">Current Version: 1.2.2</h2>
 								
+									<span style="font-family: 'Open Sans', sans-serif;">
+										<strong>v1.2.2</strong>
+									</span> 
+									<span style="vertical-align: baseline; color: #c0c0c0; font-size: 11px;">6/12/2021</span>
+									<ul>
+										<li>Re-enabled Lobby, Survival, and Parkour</li>
+										<ul style="margin-bottom: 0%">
+											<li>These servers <i>have not</i> been updated to 1.17, and remain accessible from 1.16.4/1.16.5 clients</li>
+											<li>They are also accessaible from 1.17 clients</li>
+											<li>Once these servers update to 1.17, they will no longer support 1.16 clients, so 1.17 clients are still recommended.</li>
+										</ul>
+										<li>Re-enabled Geyser</li>
+										<ul style="margin-bottom: 0%">
+											<li>Updated Floodgate to version 2.0</li>
+											<li>Bedrock players' usernames are now prefixed with a <code>.</code> instead of a <code>*</code></li>
+											<li>Initial implementation of Bedrock skin support</li>
+											<ul style="margin-bottom: 0%;">
+												<li>This is fairly buggy at the moment, and some skins are corrupted</li>
+												<li>Does not support 3D skins or character creator</li>
+											</ul>
+										</ul>
+										<li>Moved Anarchy from Vanilla Minecraft to Spigot</li>
+										<ul style="margin-bottom: 0%;">
+											<li>Some basic plugins are available, such as EssentialsX chat coloring and double shulker shell drops</li>
+										</ul>
+										<li>Changed the !players command in discord to be more readable</li>
+										<li>Changed difficulty on Anarchy to Hard</li>
+									</ul>
+
 									<span style="font-family: 'Open Sans', sans-serif;">
 										<strong>v1.2.1</strong>
 									</span> 
 									<span style="vertical-align: baseline; color: #c0c0c0; font-size: 11px;">6/8/2021</span>
-									<ul style="font-family: 'Nunito Sans', sans-serif;">
+									<ul>
 										<li>Reset Anarchy world because of the seed being the same as the previous world</li>
 										<li>Set a 10,000 block world border on Anarchy</li>
 										<li>Fixed the server icon not displaying properly</li>
@@ -74,7 +104,7 @@
 										<strong>v1.2.0</strong>
 									</span> 
 									<span style="vertical-align: baseline; color: #c0c0c0; font-size: 11px;">6/8/2021</span>
-									<ul style="font-family: 'Nunito Sans', sans-serif;">
+									<ul>
 										<li>Reset Anarchy world</li>
 										<li>Temporarily reworked the server to accomodate the 1.17 update</li>
 										<ul style="margin-bottom: 0%">
@@ -98,7 +128,7 @@
 										<strong>v1.1.6</strong>
 									</span> 
 									<span style="vertical-align: baseline; color: #c0c0c0; font-size: 11px;">6/6/2021</span>
-									<ul style="font-family: 'Nunito Sans', sans-serif;">
+									<ul>
 										<li>Updated the server to Java 16</li>
 										<li>Added DiscordSRV !players command to replace the McStatus bot's %playersonline command in Discord</li>
 										<ul style="margin-bottom: 0%">
@@ -119,7 +149,7 @@
 										<strong>v1.1.5</strong>
 									</span> 
 									<span style="vertical-align: baseline; color: #c0c0c0; font-size: 11px;">5/7/2021</span>
-									<ul style="font-family: 'Nunito Sans', sans-serif;">
+									<ul>
 										<li>Added a BungeeCord security plugin to help with potential security flaws in the server</li>
 										<li>Rearranged portals in the lobby</li>
 										<ul style="margin-bottom: 0%">
@@ -149,7 +179,7 @@
 										<strong>v1.1.4</strong>
 									</span> 
 									<span style="vertical-align: baseline; color: #c0c0c0; font-size: 11px;">4/17/2021</span>
-									<ul style="font-family: 'Nunito Sans', sans-serif;">
+									<ul>
 										<li>Added a plugin that shows player ping from the tab list</li>
 										<ul style="margin-bottom: 0%">
 											<li>/ping command can also be used to find any player's ping</li>
@@ -165,7 +195,7 @@
 										<strong>v1.1.3</strong>
 									</span> 
 									<span style="vertical-align: baseline; color: #c0c0c0; font-size: 11px;">4/6/2021</span>
-									<ul style="font-family: 'Nunito Sans', sans-serif;">
+									<ul>
 										<li>Updated Geyser</li>
 										<ul style="margin-bottom: 0%">
 											<li>Allows users on the latest version of Bedrock (1.16.220) to join the server</li>
@@ -185,7 +215,7 @@
 										<strong>v1.1.2</strong>
 									</span> 
 									<span style="vertical-align: baseline; color: #c0c0c0; font-size: 11px;">3/19/2021</span>
-									<ul style="font-family: 'Nunito Sans', sans-serif;">
+									<ul>
 										<li>Added a DiscordSRV bot for each server</li>
 										<ul style="margin-bottom: 0%">
 											<li>Each Minecraft server's status can be checked from the online list of the Discord server</li>
@@ -201,7 +231,7 @@
 										<strong>v1.1.1</strong>
 									</span> 
 									<span style="vertical-align: baseline; color: #c0c0c0; font-size: 11px;">3/14/2021</span>
-									<ul style="font-family: 'Nunito Sans', sans-serif;">
+									<ul>
 										<li>Updated Geyser</li>
 										<ul style="margin-bottom: 0%">
 											<li>Bedrock players can now access block inventories previously unavailable</li>
@@ -220,7 +250,7 @@
 										<strong>v1.1.0</strong>
 									</span> 
 									<span style="vertical-align: baseline; color: #c0c0c0; font-size: 11px;">3/12/2021</span>
-									<ul style="font-family: 'Nunito Sans', sans-serif;">
+									<ul>
 										<li>Added Onyenwe Anarchy server</li>
 										<ul style="margin-bottom: 0%">
 											<li>There is no grief prevention plugins and no land protection</li>
@@ -249,7 +279,7 @@
 										<strong>v1.0.2</strong>
 									</span> 
 									<span style="vertical-align: baseline; color: #c0c0c0; font-size: 11px;">3/10/2021</span>
-									<ul style="font-family: 'Nunito Sans', sans-serif;">
+									<ul>
 										<li>Updated Geyser</li>
 										<ul style="margin-bottom: 0%">
 											<li>Allows users on the latest version of Bedrock (1.16.210) to join the server</li>
@@ -268,7 +298,7 @@
 										<strong>v1.0.1</strong>
 									</span> 
 									<span style="vertical-align: baseline; color: #c0c0c0; font-size: 11px;">3/7/2021</span>
-									<ul style="font-family: 'Nunito Sans', sans-serif;">
+									<ul>
 										<li>Fixed Geyser connections</li>
 										<li>Changed Discord rich presence for Survival</li>
 										<li>Fixed players being able to break minecarts in Parkour</li>
@@ -283,7 +313,7 @@
 										<strong>v1.0.0</strong>
 									</span> 
 									<span style="vertical-align: baseline; color: #c0c0c0; font-size: 11px;">3/7/2021</span>
-									<ul style="font-family: 'Nunito Sans', sans-serif;">
+									<ul>
 										<li>Refreshed the logo for the server across the Minecraft server, Discord server, and website</li>
 										<li>Implemented Waterfall proxy to turn the server into a network of servers</li>
 										<li>Renamed Onyenwe Server Alpha world to Onyenwe Survival</li>
@@ -311,7 +341,7 @@
 										<strong>v0.4.7 Alpha</strong>
 									</span> 
 									<span style="vertical-align: baseline; color: #c0c0c0; font-size: 11px;">2/23/2021</span>
-									<ul style="font-family: 'Nunito Sans', sans-serif;">
+									<ul>
 										<li>Fixed an issue with the coloring of the /toppt command</li>
 										<li>Updated EssentialsX</li>
 										<li>Updated Geyser & Paper to latest versions</li>
@@ -323,7 +353,7 @@
 										<strong>v0.4.6 Alpha</strong>
 									</span> 
 									<span style="vertical-align: baseline; color: #c0c0c0; font-size: 11px;">2/2/2021</span>
-									<ul style="font-family: 'Nunito Sans', sans-serif;">
+									<ul>
 										<li>Changed color scheme of Harbor sleep plugin chat messages (from yellow to dark aqua/aqua)</li>
 										<li>Increased maximum claim blocks to 100,000 (from 10,000)</li>
 										<li>Updated Geyser & Paper to latest versions</li>
@@ -335,7 +365,7 @@
 										<strong>v0.4.5 Alpha</strong>
 									</span> 
 									<span style="vertical-align: baseline; color: #c0c0c0; font-size: 11px;">2/2/2021</span>
-									<ul style="font-family: 'Nunito Sans', sans-serif;">
+									<ul>
 										<li>Changed color scheme of EssentialsX chat messages (from aqua/blue to dark aqua/aqua)</li>
 										<li>Changed the server MOTD to mention the RHS Video Game Club</li>
 										<li>World name on Bedrock changed to "Onyenwe Server" (formerly "Onyenwe")</li>
@@ -348,7 +378,7 @@
 										<strong>v0.4.4 Alpha</strong>
 									</span> 
 									<span style="vertical-align: baseline; color: #c0c0c0; font-size: 11px;">1/28/2021</span>
-									<ul style="font-family: 'Nunito Sans', sans-serif;">
+									<ul>
 										<li>Changed color scheme of EssentialsX chat messages (from orange/red to aqua/blue)</li>
 										<li>Claim blocks accrued per hour increased to 200 (from 150)</li>
 										<li>Players now have access to the /tpdeny command</li>
@@ -363,7 +393,7 @@
 										<strong>v0.4.3 Alpha</strong>
 									</span> 
 									<span style="vertical-align: baseline; color: #c0c0c0; font-size: 11px;">1/17/2021</span>
-									<ul style="font-family: 'Nunito Sans', sans-serif;">
+									<ul>
 										<li>Updated Minecraft version to 1.16.5</li>
 										<ul style="margin-bottom: 0%">
 											<li>Fixes server-side vulnerabilities</li>
@@ -378,7 +408,7 @@
 										<strong>v0.4.2 Alpha</strong>
 									</span> 
 									<span style="vertical-align: baseline; color: #c0c0c0; font-size: 11px;">1/1/2021</span>
-									<ul style="font-family: 'Nunito Sans', sans-serif;">
+									<ul>
 										<li>Flying is now enabled on the server</li>
 										<ul style="margin-bottom: 0%">
 											<li>Players do not have access to the /fly command</li>
@@ -393,7 +423,7 @@
 										<strong>v0.4.1 Alpha</strong>
 									</span> 
 									<span style="vertical-align: baseline; color: #c0c0c0; font-size: 11px;">12/28/2020</span>
-									<ul style="font-family: 'Nunito Sans', sans-serif;">
+									<ul>
 										<li>Added DiscordRichPresence plugin for players using the <a href="https://www.curseforge.com/minecraft/mc-mods/discordrpc">DiscordRichPresence Forge mod</a></li>
 										<li>Changed formatting of /toppt leaderboard</li>
 										<li>Updated Paper to latest version</li>
@@ -405,7 +435,7 @@
 										<strong>v0.4.0 Alpha</strong>
 									</span> 
 									<span style="vertical-align: baseline; color: #c0c0c0; font-size: 11px;">12/27/2020</span>
-									<ul style="font-family: 'Nunito Sans', sans-serif;">
+									<ul>
 										<li>Server hardware upgrades</li>
 										<ul style="margin-bottom: 0%;">
 											<li>Installed 32 gigabytes of RAM</li>
@@ -432,7 +462,7 @@
 										<strong>v0.3.3 Alpha</strong>
 									</span> 
 									<span style="vertical-align: baseline; color: #c0c0c0; font-size: 11px;">12/26/2020</span>
-									<ul style="font-family: 'Nunito Sans', sans-serif;">
+									<ul>
 										<li>Enabled land claims in The Nether</li>
 										<li>Enacted written rules, <a href="rules.html">found on the website</a> or in #rules of the <a href="https://discord.com/invite/eUNy3HaUdm">Discord server</a></li>
 										<li>Updated Geyser & Paper to latest versions</li>
@@ -444,7 +474,7 @@
 										<strong>v0.3.2 Alpha</strong>
 									</span> 
 									<span style="vertical-align: baseline; color: #c0c0c0; font-size: 11px;">12/23/2020</span>
-									<ul style="font-family: 'Nunito Sans', sans-serif;">
+									<ul>
 										<li>Removed Orebfuscator</li>
 										<li>Removed anti-cheat plugin</li>
 										<li>Updated Geyser & Paper to latest versions</li>
@@ -456,7 +486,7 @@
 										<strong>v0.3.1 Alpha</strong>
 									</span> 
 									<span style="vertical-align: baseline; color: #c0c0c0; font-size: 11px;">12/17/2020</span>
-									<ul style="font-family: 'Nunito Sans', sans-serif;">
+									<ul>
 										<li>Added Lasso plugin</li>
 										<ul style="margin-bottom: 0%;">
 											<li>Makes leads more useful</li>
@@ -479,7 +509,7 @@
 										<strong>v0.3.0 Alpha</strong>
 									</span> 
 									<span style="vertical-align: baseline; color: #c0c0c0; font-size: 11px;">12/14/2020</span>
-									<ul style="font-family: 'Nunito Sans', sans-serif;">
+									<ul>
 										<li>Added Orebfuscator plutin to prevent xraying</li>
 										<li>Added an anti-cheat plugin to prevent the use of hacked clients</li>
 										<li>Server MOTD is now centered</li>
@@ -503,7 +533,7 @@
 										<strong>v0.2.6 Alpha</strong>
 									</span> 
 									<span style="vertical-align: baseline; color: #c0c0c0; font-size: 11px;">12/11/2020</span>
-									<ul style="font-family: 'Nunito Sans', sans-serif;">
+									<ul>
 										<li>Updated Geyser</li>
 										<ul>
 											<li>Allows users on the latest version of Bedrock (1.16.200) to join the server</li>
@@ -516,7 +546,7 @@
 										<strong>v0.2.5 Alpha</strong>
 									</span> 
 									<span style="vertical-align: baseline; color: #c0c0c0; font-size: 11px;">12/8/2020</span>
-									<ul style="font-family: 'Nunito Sans', sans-serif;">
+									<ul>
 										<li>Tweaked the playtime system</li>
 										<ul style="margin-bottom: 0%;">
 											<li>Now allows players to see the playtime of players that are offline</li>
@@ -534,7 +564,7 @@
 										<strong>v0.2.4 Alpha</strong>
 									</span> 
 									<span style="vertical-align: baseline; color: #c0c0c0; font-size: 11px;">12/2/2020</span>
-									<ul style="font-family: 'Nunito Sans', sans-serif;">
+									<ul>
 										<li>Added a plugin that shows player playtime and server uptime</li>
 										<ul style="margin-bottom: 0%;">
 											<li>Commands are /playtime and /uptime</li>
@@ -548,7 +578,7 @@
 										<strong>v0.2.3 Alpha</strong>
 									</span> 
 									<span style="vertical-align: baseline; color: #c0c0c0; font-size: 11px;">11/27/2020</span>
-									<ul style="font-family: 'Nunito Sans', sans-serif;">
+									<ul>
 										<li>Shulkers now drop 2 shulker shells</li>
 										<li>Increased player limit to 25 (from 10)</li>
 										<li>Updated Geyser & Paper to latest versions</li>
@@ -560,7 +590,7 @@
 										<strong>v0.2.2 Alpha</strong>
 									</span> 
 									<span style="vertical-align: baseline; color: #c0c0c0; font-size: 11px;">11/23/2020</span>
-									<ul style="font-family: 'Nunito Sans', sans-serif;">
+									<ul>
 										<li>Claims are now enabled in The End</li>
 										<li>Increased player limit to 10 (from 8)</li>
 										<li>/tpahere command is now available</li>
@@ -573,7 +603,7 @@
 										<strong>v0.2.1 Alpha</strong>
 									</span> 
 									<span style="vertical-align: baseline; color: #c0c0c0; font-size: 11px;">11/22/2020</span>
-									<ul style="font-family: 'Nunito Sans', sans-serif;">
+									<ul>
 										<li>Updated the formatting of the chat</li>
 										<li>Reduced player limit to 8 (temporary change based on server hardware limitations)</li>
 										<li>Earlier fixes</li>
@@ -588,7 +618,7 @@
 										<strong>v0.2.0 Alpha</strong>
 									</span> 
 									<span style="vertical-align: baseline; color: #c0c0c0; font-size: 11px;">11/21/2020</span>
-									<ul style="font-family: 'Nunito Sans', sans-serif;">
+									<ul>
 										<li>Added a new chat system with better censorship</li>
 										<li>Changed the formatting of the server MOTD</li>
 										<li>Added graves</li>
@@ -609,7 +639,7 @@
 										<strong>v0.1.6 Alpha</strong>
 									</span> 
 									<span style="vertical-align: baseline; color: #c0c0c0; font-size: 11px;">11/20/2020</span>
-									<ul style="font-family: 'Nunito Sans', sans-serif;">
+									<ul>
 										<li>Reduced minimum claim size to 25 blocks (from 100)</li>
 										<li>Updated Geyser</li>
 									</ul>
@@ -620,7 +650,7 @@
 										<strong>v0.1.5 Alpha</strong>
 									</span> 
 									<span style="vertical-align: baseline; color: #c0c0c0; font-size: 11px;">11/18/2020</span>
-									<ul style="font-family: 'Nunito Sans', sans-serif;">
+									<ul>
 										<li>Added a new sleeping system that should fix the inconsistencies of the old one</li>
 										<li>Updated Geyser</li>
 										<ul style="margin-bottom: 0%;">
@@ -635,7 +665,7 @@
 										<strong>v0.1.4 Alpha</strong>
 									</span> 
 									<span style="vertical-align: baseline; color: #c0c0c0; font-size: 11px;">11/17/2020</span>
-									<ul style="font-family: 'Nunito Sans', sans-serif;">
+									<ul>
 										<li>Maximum claim blocks is now 10,000 (from 2,000)</li>
 										<li>Claim blocks acquired per hour is now 150 (from 100)</li>
 										<li>Players can now use /trapped to  escape if they are trapped in a claimed area</li>
@@ -653,7 +683,7 @@
 										<strong>v0.1.3 Alpha</strong>
 									</span> 
 									<span style="vertical-align: baseline; color: #c0c0c0; font-size: 11px;">11/15/2020</span>
-									<ul style="font-family: 'Nunito Sans', sans-serif;">
+									<ul>
 										<li>Players on Bedrock are now able to type /geyser offhand to place the item they are currently using into their offhand</li>
 										<li>An issue regarding chest autoclaims has been fixed</li>
 										<li>Chat spam is no longer a bannable offense</li>
@@ -665,11 +695,11 @@
 										<strong>v0.1.2 Alpha</strong>
 									</span> 
 									<span style="vertical-align: baseline; color: #c0c0c0; font-size: 11px;">11/14/2020</span>
-									<ul style="font-family: 'Nunito Sans', sans-serif;">
+									<ul>
 										<li>Combat logging is now disabled</li>
 										<li>Players can now use a stick to find information about others' claimed blocks</li>
 										<li>Updated permissions</li>
-										<ul style="font-family: 'Nunito Sans', sans-serif;">
+										<ul>
 											<li>/home is now available</li>
 											<li>/back after death is no longer available (/back after teleporting or warping is still available)</li>
 										</ul>
@@ -681,7 +711,7 @@
 										<strong>v0.1.1 Alpha</strong>
 									</span> 
 									<span style="vertical-align: baseline; color: #c0c0c0; font-size: 11px;">11/14/2020</span>
-									<ul style="font-family: 'Nunito Sans', sans-serif;">
+									<ul>
 										<li>Added ViveCraft plugin for VR users</li>
 										<li>Updated permissions</li>
 										<ul>
@@ -697,7 +727,7 @@
 										<strong>v0.1.0 Alpha</strong>
 									</span> 
 									<span style="vertical-align: baseline; color: #c0c0c0; font-size: 11px;">11/8/2020</span>
-									<ul style="font-family: 'Nunito Sans', sans-serif;"> 
+									<ul> 
 										<li>Alpha test of the server begins</li>
 									</ul>
 
