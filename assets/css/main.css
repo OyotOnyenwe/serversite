@@ -2142,7 +2142,18 @@ input, select, textarea {
 		#copyright a {
 			color: inherit;
 		}
-
+/* RowCol */
+.rowcol:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+/* Col */
+.column {
+	float: left;
+	width: 33.333%;
+	text-align: center;
+}
 /* XLarge */
 
 	@media screen and (max-width: 1680px) {
@@ -2648,6 +2659,10 @@ input, select, textarea {
 				line-height: 3em;
 			}
 
+			#logo img {
+				width: 80%;
+			}
+
 		/* Banner */
 
 			#banner {
@@ -2692,5 +2707,9 @@ input, select, textarea {
 			#copyright {
 				text-align: left;
 			}
+		/* Column */
+		.column {
+			width: 100%;
+		}
 
 	}
