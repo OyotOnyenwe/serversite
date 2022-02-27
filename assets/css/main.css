@@ -76,6 +76,48 @@ input, select, textarea {
 	appearance: none;
 }
 
+/* Onyenwe */
+
+.cltitle {
+	text-align: center;
+	font-weight: 800;
+	font-size: 300%;
+	margin-bottom: 1%
+}
+
+.clsubtitle {
+	text-align: center;
+	font-weight: 400;
+	font-size: 100%;
+	margin-bottom: 3em
+}
+
+.clver {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.clsub {
+	margin-bottom: 0%;
+}
+
+.clh {
+	margin-top: 0.5em;
+}
+
+.clhr {
+	margin-bottom: 2em;
+}
+
+.cldate {
+	vertical-align: baseline;
+	color: #c0c0c0;
+	font-size: 11px;
+}
+
+.clmid {
+	margin-bottom: 0.5em;
+}
+
 /* Basic */
 
 	@-ms-viewport {
